@@ -7,7 +7,20 @@ body{
 header{
   display: flex;
   flex-direction: column;
-  background-image: url(./IMG/background.png);
+}
+.address{
+    min-width: 280px;
+    height: 60px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
 }
 .first-section{
     display: flex;
@@ -15,34 +28,53 @@ header{
     justify-content: space-around;
     color: white;
     width: 100%;
-    height: 40px;
+    height: 60px;
     gap: 500px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #8d9297;
     align-items: center;
+    z-index: 2;
 }
 .icons{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    width: 305px;
+    height: 61px;
 }
 .second-section{
     display: flex;
     flex-direction: row;
     align-items: center;
+    min-width: 100%;
+    height: 90px;
+    z-index: 2;
     justify-content: space-around;
-    gap: 200px;
-    width: 100%;
-    height: 60px;
+    border-bottom: 1px solid #8d9297;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
 }
 .logo{
     width: auto;
     height: 50px;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    position: relative;
+    right: 50px;
 }
 ul{
     display: flex;
     flex-direction: row;
     list-style: none;
     gap: 20px;
+    align-items: center;
+
+}
+ul li{
+    font-size: 15px;
 
 }
 a{
@@ -51,8 +83,8 @@ a{
 }
 .facebook{
     width: 25px;
-    height: 30px;
-    border-left: 1px solid lightgray;
+    height: 61px;
+    border-left: 1px solid #8d9297;
     display: flex;
     align-items: center;
 }
@@ -61,7 +93,7 @@ a{
     left: 13px;
 }
 .donate{
-    background-color: red;
+    background-color: rgb(201, 14, 61);
     width: 80px;
     height: 30px;
     color: white;
@@ -69,6 +101,107 @@ a{
     border: none;
     position: relative;
     bottom: 5px;
+  
+    
+}
+.hero{
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 300px;
+    gap: 10px;
+}
+@media screen and (max-width:1075px){
+    header{
+        min-width: 1075px;
+        
+    }
+    .background{
+        min-width: 1078px;
+   
+    }
+    .first-section{
+        gap: 470px;
+    }
+    .second-section{
+                
+    }
+    .logo{
+        position: relative;
+        right: 48px;
+    }
+    .nav2{
+        display: none;
+    }
+    .hero{
+        display: none;
+    }
+}
+@media screen and (max-width:2150px) {
+    .nav2{
+        display: none;
+    }
+    .hero{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:1050px){
+    .second-section{
+        background-color: white;
+        padding-left:3px ;
+    }
+    .first-section{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .logo{
+       display: none;
+    }
+   
+    .nav2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 91px;
+        gap: 350px;
+
+    }
+    .hero{
+        display: flex;
+        z-index: 2;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 300px;
+        gap: 10px;
+    }
+    .done{
+        color: #bf0a30;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .power{
+        color: white;
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    .holy{
+        color: white;
+        font-weight: bolder;
+        font-size: 20px;
+        width: 75%;
+        display: flex;
+        text-align: center;
+    }
   
     
 }
