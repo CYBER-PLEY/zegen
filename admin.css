@@ -19,7 +19,7 @@ header{
 .background{
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     z-index: 1;
 }
 .first-section{
@@ -94,13 +94,13 @@ a{
 }
 .donate{
     background-color: rgb(201, 14, 61);
-    width: 80px;
+    width: 100px;
     height: 30px;
     color: white;
     border-radius: 5px;
     border: none;
     position: relative;
-    bottom: 5px;
+    
   
     
 }
@@ -114,6 +114,27 @@ a{
     height: 300px;
     gap: 10px;
 }
+.done{
+    color: #bf0a30;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.power{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.holy{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 75%;
+    display: flex;
+    text-align: center;
+}
+.logo2{
+    display: flex;
+}
 @media screen and (max-width:1075px){
     header{
         min-width: 1075px;
@@ -126,8 +147,10 @@ a{
     .first-section{
         gap: 470px;
     }
-    .second-section{
-                
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .logo{
         position: relative;
@@ -136,18 +159,13 @@ a{
     .nav2{
         display: none;
     }
-    .hero{
-        display: none;
-    }
+   
 }
 @media screen and (max-width:2150px) {
     .nav2{
         display: none;
     }
-    .hero{
-        display: none;
-    }
-    
+   
 }
 @media screen and (max-width:1050px){
     .second-section{
