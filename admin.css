@@ -2,11 +2,17 @@
     margin:0px;
 }
 body{
-    background-color: black;
+    
+    height: 1000px;
+    
 }
 header{
   display: flex;
   flex-direction: column;
+  height: 640px;
+  background-color: #bf0a30;
+  width: 100%;
+  
 }
 .address{
     min-width: 280px;
@@ -19,10 +25,13 @@ header{
 .background{
     position: absolute;
     width: 100%;
-    height: 200vh;
+    height: 640px;
     z-index: 1;
+    z-index: 1;
+    
+    
 }
-.first-section{
+.first-section-header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -33,6 +42,7 @@ header{
     border-bottom: 1px solid #8d9297;
     align-items: center;
     z-index: 2;
+    
 }
 .icons{
     display: flex;
@@ -41,7 +51,7 @@ header{
     width: 305px;
     height: 61px;
 }
-.second-section{
+.second-section-header{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,6 +60,7 @@ header{
     z-index: 2;
     justify-content: space-around;
     border-bottom: 1px solid #8d9297;
+    
 }
 
 nav{
@@ -101,8 +112,15 @@ a{
     border: none;
     position: relative;
     
-  
-    
+}
+.nav-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 91px;
+    gap: 350px;
 }
 .hero{
     display: flex;
@@ -135,7 +153,45 @@ a{
 .logo2{
     display: flex;
 }
-@media screen and (max-width:1075px){
+.body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+.stickers{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    justify-content: center;
+    gap: 30px;
+}
+.sticker-one{
+    border-radius: 10px;
+    width: 550px;
+    height: 150px;
+    position: relative;
+    bottom: 50px;
+    z-index: 2;
+} 
+.sticker-two{
+    border-radius: 10px;
+    width: 550px;
+    height: 150px;
+    position: relative;
+    bottom: 50px;
+    z-index: 2;
+}
+.rain{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 800px;
+}
+@media screen and (max-width:1150px){
     header{
         min-width: 1075px;
         
@@ -147,42 +203,11 @@ a{
     .first-section{
         gap: 470px;
     }
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .logo{
-        position: relative;
-        right: 48px;
-    }
-    .nav2{
-        display: none;
-    }
-   
-}
-@media screen and (max-width:2150px) {
-    .nav2{
-        display: none;
-    }
-   
-}
-@media screen and (max-width:1050px){
-    .second-section{
+    .second-section-header{
         background-color: white;
         padding-left:3px ;
     }
-    .first-section{
-        display: none;
-    }
-    nav{
-        display: none;
-    }
-    .logo{
-       display: none;
-    }
-   
-    .nav2{
+   .nav-2{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -190,7 +215,6 @@ a{
         width: 100%;
         height: 91px;
         gap: 350px;
-
     }
     .hero{
         display: flex;
@@ -220,6 +244,53 @@ a{
         display: flex;
         text-align: center;
     }
-  
+    .first-section-header{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .logo{
+       display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .stickers{
+        flex-direction: column;
+        background-color: white;
+        height: 300px;
+        width: 1078px;
+        margin-top: 50px;
+        
+    }
+    .sticker-two{
+        display: none;
+    }
+    .rain4{
+        width: 130px;
+        height: 30px;
+        position: relative;
+        left: 500px;
+    }
+    .rain{
+        display: none;
+    }
+    .sticker-one{
+        position: relative;
+        left: 50px;
+        border-radius: 30px;
+        border: 5px solid white;
+    }
+   
     
+   
+}
+@media screen and (min-width:1150px) {
+   .nav-2{ 
+    display: none;
+   }
+   .rain4{
+    display: none;
+   }
 }
