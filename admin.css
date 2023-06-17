@@ -227,22 +227,26 @@ a{
     left: 50px;
 }
 .dot{
-    position: absolute;
+    height: 400px;
+    width: 300px;
+    position: relative;
     z-index: 2;
-    width: 341px;
-    height: 500px;
-    top: 1020px;
-    left: 320px;
-
+    top:   200px;
+    right: 150px;
 }
+    
+    
+
+
 .img-hero-2{
     width: 40%;
+    display: flex;
 }
 .hero-2-text{
     display: flex;
     flex-direction: column;
     background-color:white;
-    width: 600px;
+    width: 40%;
     height: 100%;
     justify-content: center;
     gap: 30px;
@@ -282,8 +286,8 @@ a{
 .hero-2icons{
     border: 1px solid #bf0a30;
     border-radius: 100px;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-color: #bf0a30;
     display: flex;
     align-items: center;
@@ -317,6 +321,7 @@ a{
     position: relative;
     top: 30px;
     font-size: 15px;
+    cursor: pointer;
 
 }
 @media screen and (max-width:1150px){
@@ -331,6 +336,10 @@ a{
    .second-section-header{
         background-color: white;
         min-width: 1180px;
+        padding-left: 30px;
+    }
+    .background{
+        width: 1210px;
     }
    .nav-2{
         display: flex;
@@ -383,21 +392,37 @@ a{
    
     .stickers{
         min-width: 1180px;
-       
+        display: flex;
+        justify-content: flex-start;
+        height: 260px;
+        align-items: center;
+        background-color: red;
+        padding-left: 30px;
     } 
     .sticker-one{
-        display: none;
+       display: none;
     }
     .sticker-two{
         display: none;
     }
+    .sticker-three{
+        width: 1000px;
+        height: 200px;
+        padding-left: 50px;
+
+    }
     .rain4{
-      display: none;
+        position: relative;
+        top: 150px;
+        right: 550px;
+        height: 35px;
+        width: 150px;
+      
     }
     .rain{
         display: none;
-    }
-    .hero-2{
+}
+.hero-2{
         min-width: 1180px;
         display: flex;
         flex-direction: column;
@@ -407,23 +432,24 @@ a{
         justify-content: space-between;
         
         
-    }
-    .img-hero-2{
-        background-color: white;
+}
+.img-hero-2{
+        background-color: green;
         width: 100%;
-        height: 700px;
+        height: 900px;
         display: flex;
         flex-direction: row;
+        padding-left: 30px;
         
-    }
-    .hero-2-text{
+}
+.hero-2-text{
         display: flex;
         flex-direction: column;
         height: 800px;
         width: 100%;
         
-    }
-    .hall{
+}
+.hall{
         height: 400px;
         width: 400px;
         position: relative;
@@ -432,27 +458,119 @@ a{
         width: 550px;
        
 
-    }
-    .dot{
-        position: absolute;
-        left: 550px;
+}
+.dot{
+        position: relative;
+        left: 10px;
         height: 500px;
         width: 300px;
-    }
-    .hero-2-txt1{
-        font-size: 30px;
-
-    }
-    
-   
-    
-   
+} 
+.hero-2-text{
+    padding-left: 30px;
 }
+.about{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.hero-2-txt1{
+    font-size: 50px;
+    font-weight: 600px;
+}
+.hero-2-txt2{
+    font-size: 30px;
+    font-weight: 600px;
+}
+.hero-2-txt3{
+    font-size: 50px;
+    font-weight: 600px;
+}
+.hero-2-icons2{
+    display: none;
+}
+.place{
+    font-size: 50px;
+    font-weight: 600px;
+}
+.beliefs{
+    font-size: 35px;
+    font-weight: 600px;
+    color: rgba(128, 128, 128, 0.582);
+}
+.learn-more{
+    width: 100px;
+}
+
+}
+@media screen  and (max-width:750px) {
+    .dot{
+        display: none;
+    }
+    .img-hero-2{
+        background-color: white;
+        width: 100%;
+        height: 2000px;
+        display: flex;
+        flex-direction: row;
+    }
+    .hall{
+        height: 600px;
+        width: 700px;
+    }
+    .hero-2-text{
+        padding-left: 30px;
+        background-color: white;
+        flex-direction: column;
+    }
+    .hero2-icon-text{
+        display: none;
+    }
+    .hero-2icons{
+        border: 1px solid #bf0a30;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    background-color: #bf0a30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .hero-2-icons{
+        display: none;
+    }
+    .hero-2-icons2{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+        height: 700px;
+        background-color: white;
+        padding-left: 30px;
+    }
+    .hero-2-text{
+        padding-top: 100px;
+    }
+    .learn-more{
+        width: 300px;
+        height: 100px;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+    
+}
+
+
+
 @media screen and (min-width:1150px) {
    .nav-2{ 
     display: none;
    }
    .rain4{
+    display: none;
+   }
+   .sticker-three{
+    display: none;
+   }
+   .hero-2-icons2{
     display: none;
    }
 }
