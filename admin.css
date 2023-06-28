@@ -367,7 +367,7 @@ a{
 }
 .section-4{
     width: 100%;
-    height: 800px;
+    height: 1000px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -376,35 +376,15 @@ a{
 .row{
     display: flex;
     flex-direction: column;
-    width: 1178px;
-    height: 800px;
+    width:100%;
+    height: 1000px;
     background-color: white;
     justify-content: center;
     align-items: center;
     gap: 50px;
     
 }
-.row-box{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    width: 100%;
-    height: 500px;
-    gap: 50px;
 
-}
-.row-button{
-    position:absolute;
-    top:2400px ;
-    margin-left: 1000px;
-    width: 110px;
-    height: 60px;
-}
-.row-pic{
-    width: 350px;
-    height: 100%;
-    border-radius: 10px;
-}
 .text-1{
     width: 250px;
     height: 80px;
@@ -412,11 +392,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.section-5{
-    background: url(./IMG/chair.png);
-    width: 100%;
-    height: 500px;
+    margin-top: 100px;
 }
 .ministries{
     color: #bf0a30;
@@ -429,6 +405,371 @@ a{
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
 }
+.row-box{
+    width: 90%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+}
+.row-box-2{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+}
+.row-boxes{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-wrap: wrap-reverse;
+    height: 500px;
+    border-radius: 10px;
+    justify-content: space-between;
+    border-bottom: 5px solid #bf0a30 ;
+}
+
+.row-box-inner{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 30px;
+    height: 250px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.grateful{
+    font-size: 18px;
+    color: rgb(87, 84, 84);
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+.childrens-ministry{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h1{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.read-more{
+    text-decoration: underline;
+    color: #bf0a30;
+    font-size: 20px;
+}
+.row-button{
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 550px;
+}
+.row-button-one{
+    border-radius:100px;
+    width: 30px;
+    height: 30px;
+    background-color: #bf0a30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-5{
+    background: url(./IMG/chair.png);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+
+}
+.call-us{
+    display: flex;
+    flex-direction: column;
+    background-color: #bf0a30;
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    border-radius: 5px;
+    gap: 30px;
+   
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    background-color:#bf0a30;
+    line-height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.address{
+    font-size: 15px;
+    
+    font-family: 'Poppins', sans-serif;
+}
+.call{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.hyphen{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+.phone{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+   
+}
+.mail{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+ 
+}
+.contact-us{
+    width: 800px;
+    height: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.touch{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #bf0a30;
+}
+.hesitate{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.free{
+    color: white;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.section-6{
+    background: url(./IMG/background.png);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    border-top: 10px solid white;
+    gap: 20px;
+    justify-content: center;
+}
+.about-z{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+.about-zegen{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bolder;
+    
+}
+.about-zegen-info{
+    font-size: 19px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.about-zegen-icons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    color: white;
+    gap: 10px;
+    align-items: center;
+}
+.facebook-z{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 51, 148);
+    border-radius: 5px;
+}
+.twitter{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 123, 218);
+    border-radius: 5px;
+}
+.insta{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 53, 117);
+    border-radius: 5px;
+}
+.pintrest{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 21, 29);
+    border-radius: 5px;
+}
+.tissue{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(197, 62, 21);
+    border-radius: 5px;
+}
+.quick{
+    width: 300px;
+    height: 400opx;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.quick-links-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    padding: 0px;
+    justify-content: flex-start;
+    font-size: 18px;
+    height: auto;
+    gap: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.latest{
+    width: 300px;
+    height: 400opx;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.giving{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    
+
+}
+.giving-text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+    height: auto;
+    text-align: end;
+    font-size: 15px;
+    justify-content: space-around;
+    color: white;
+}
+.date{
+    display: flex;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    justify-content: center;
+    color: gray;
+}
+.news-pic{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.newsletter{
+    width: 300px;
+    height: 400opx;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+.news-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: white;
+}
+.news-box{
+    display: flex;
+    flex-direction: row;
+     width: auto;
+    height: auto;
+}
+.email{
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: solid white;
+    font-size: 20px;
+    width: 200px;
+}
+.sign-up{
+    width: 100px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: solid #bf0a30;
+    background-color: #bf0a30;
+    font-size: 20px;
+
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(9, 9, 37);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 500px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+
+
 
 
 
@@ -639,8 +980,16 @@ body{
     flex-direction: column;
     
 }
-.text{
-   
+.text-1{
+   width: 300px;
+   height: 100px;
+  
+}
+.ministries{
+    font-size: 20px;
+}
+.our{
+    font-size: 35px;
 }
 .pray{
     height: 150px;
@@ -650,41 +999,45 @@ body{
     height: 1000px;
     background-color: black;
 }
-.row{
+.row-box{
     display: none;
 }
-.row-2{
+.row-boxes{
+   height: 600px;
+    width: 500px;
+}
+.childrens-ministry{
+    height: 300px;
+}
+.section-5{
+    width: 1210px;
+    height: 700px;
+    flex-direction: column;
+}
+.call-us{
+   display: none;
+
+}
+.call-us-2{
     display: flex;
     flex-direction: column;
-    width: 1300px;
-    height: 1000px;
-    background-color: white;
-    justify-content: center;
+    background-color: #bf0a30;
+    width: 95%;
+    height: 350px;
     align-items: center;
-    gap: 50px;
-}
-.row-box{
-    background-color: white;
-    height: 700px;
     justify-content: center;
+    text-align: center;
+    color: white;
+    align-self: center;
+    border-radius: 5px;
+    gap: 30px;
+    position: relative;
+    bottom: 30px;
+   
 }
-.row-pic{
-    width: 550px;
-    height: 700px;
+.row-box-3{
+    display: none;
 }
-.row-button{
-    position: absolute;
-    top: 3750px;
-    left: 1000px;
-    width: 110px;
-    height: 60px;
-    margin: 0px;
-}
-
-
-
-
-
 }
 @media screen  and (max-width:750px) {
     body{
@@ -793,18 +1146,128 @@ body{
     .learn-more{
         margin-left: 30px;
     }
-    .row{
+    .call-us{
         display: none;
     }
-    .row-2{
-        do
-        background-color: black;
-      
+    .row-box-2{
+        display: none;
     }
+    .row-box-3{
+    width: 100%;
+    height: 1020px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+}
+.row-boxes{
+    width:90%;
+    height: 1000px;
+    border-bottom: 10px solid #bf0a30;
+}
+.childrens-ministry{
+    height: 600px;
+}
+.section-4{
+    width: 1270px;
+    height: 1400px;
+    background-color: white;
+    justify-content: center;
+}
+.row{
+    background-color: white;
+    height: 1300px;
+    gap: 10px;
+}
+.text-1{
+    margin-bottom: 20px;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.ministries{
+    font-size: 30px;
+}
+.our{
+    font-size: 45px;
+}
+
+h1{
+    font-size: 40px;
+}
+.grateful{
+    font-size: 25px;
+}
+.read-more{
+    font-size: 35px;
+}
+.row-button{
+    background-color: white;
+    width: 120px;
+    height: 50px;
+    left: 500px;
+}
+.row-button-one{
+    width: 50px;
+    height: 50px;
+}
+.section-5{
+    width: 1270px;
+    height: 1300px;
+}
+.call-us-2{
+    height: 700px;
+}
+.call{
+    font-size: 50px;
+}
+.address{
+    font-size: 30px;
+}
+.phone{
+    font-size: 30pxwa;
+}
+.contact-us{
+    margin: 0px;
+    width: 95%;
+    height: 500px;
+    margin-top: 100px;
+    position: relative;
+    left: 20px;
+}
+.touch{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.hesitate{
+    font-size: 50px;
+}
+.free{
+    font-size: 30px;
+}
+.phone{
+    font-size: 30px;  
+}
+.contact-info{
+    gap: 20px;
+}
+.mail{
+    font-size: 30px;
+}
+.call-us-2{
+    gap: 30px;
+    line-height: 30px;
+}
+    
+
+}
    
 
     
-}
+
+
 
 
 
@@ -821,7 +1284,14 @@ body{
    .hero-2-icons2{
     display: none;
    }
-   .row-2{
+   .row-box-2{
     display: none;
    }
+   .row-box-3{
+    display: none;
+   }
+   .call-us-2{
+    display: none;
+   }
+  
 }
