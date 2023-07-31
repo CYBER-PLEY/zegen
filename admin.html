@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./fonts-6/css/all.css">
     <link rel="stylesheet" href="./fonts">
     <link rel="stylesheet" href="./admin.css">
+    <link rel="stylesheet" href="./custom.js">
 </head>
 <body>
     <!-- head-->
@@ -57,9 +58,20 @@
         <button class="donate">DONATE</button>
         </nav>
         <nav class="nav-2">
-            <i class="fa-solid fa-bars fa-2x"></i>
+            <div class="nav-button">
+                <div class="fa-solid fa-bars fa-2x" id="bars-js"></div>
+                    <ul id="ul-js">
+                        <li>home</li>
+                        <li>about</li>
+                        <li>contacts</li>
+                        <li><div class="fa-solid fa-xmark fa-2x"id="hide"></div></li>
+                    </ul>
+            </div>
             <img src="./IMG/logo2.png" alt="ZEGEN2" class="logo2">
-            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass fa-2x" id="search-btn"></i>
+                <input type="text" placeholder="Search" height="50px" width="50px" id="search" style="font-size: 23px;">
+            </div>
         </nav>
     </div>
     <div class="hero">
@@ -71,12 +83,9 @@
     </header>
     <!-- body -->
     <section class="stickers">
-            <img src="./IMG/sticker1.jpg" alt="sticker1" class="sticker-one">
-            <img src="./IMG/sticker2.jpg" alt="sticker2" class="sticker-two">
-            <img src="./IMG/sticker-3.png" alt="sticker3" class="sticker-three">
-            <img src="./IMG/rain-button.png" alt="button" class="rain">
-            <img src="./IMG/rainbutton4.png" alt="button" class="rain4">
+      
     </section>
+
    <section class="hero-2">
       <div class="img-hero-2">
         <img src="./IMG/hall.png" alt="church hall" class="hall">
@@ -331,9 +340,17 @@
     </footer>
   
 
-   
-
-
-
 </body>
 </html>
+<script src="./custom.js"></script>
+<script>
+    $('#search-btn').on('click', function(){
+        $("#search").toggle();
+    })
+    $('#bars-js').on('click', function(){
+        $("#ul-js").show();
+        })
+    $('#hide').on('click', function(){
+        $("#ul-js").hide();
+    })
+</script>
