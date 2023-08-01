@@ -5,6 +5,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Roboto+Condensed:ital,wght@1,300&display=swap');
   
   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+  
+ 
 
 
 
@@ -23,6 +27,7 @@ header{
   height: 640px;
   background-color: #bf0a30;
   width: 100%;
+  align-items: center;
   
 }
 .address{
@@ -41,6 +46,7 @@ header{
     z-index: 1;
     
     
+    
 }
 .first-section-header{
     display: flex;
@@ -49,7 +55,7 @@ header{
     color: white;
     width: 100%;
     height: 60px;
-    gap: 500px;
+    gap: 200px;
     border-bottom: 1px solid rgba(141, 146, 151, 0.226);
     align-items: center;
     z-index: 2;
@@ -59,9 +65,10 @@ header{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    width: 305px;
+    width: 300px;
     height: 61px;
 }
+
 .second-section-header{
     display: flex;
     flex-direction: row;
@@ -69,8 +76,10 @@ header{
     min-width: 100%;
     height: 90px;
     z-index: 2;
-    justify-content: space-around;
-    box-shadow: 0px 5px rgba(141, 146, 151, 0.226);
+    justify-content: center;
+    gap: 70px;
+    box-shadow: 0px 3px 10px rgba(141, 146, 151, 0.226) ;
+   
    
     
 }
@@ -78,7 +87,7 @@ header{
 
 nav{
     display: flex;
-    gap: 40px;
+    gap: 20px;
 }
 .logo{
     width: auto;
@@ -86,36 +95,160 @@ nav{
     display: flex;
     align-self: center;
     flex-direction: row;
-    position: relative;
+    
     right: 50px;
 }
 ul{
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 700px;
 
 }
 ul li{
-    font-size: 15px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
 
+}
+li:hover{
+    background-color: #bf0a30;
+    transition: 0.2s;
 }
 a{
     text-decoration: none;
     color: white;
 }
 .facebook{
-    width: 25px;
+    width: 30px;
     height: 61px;
     border-left: 1px solid #8d929744;
     display: flex;
     align-items: center;
+    justify-content: center;
+    
 }
-.icon{
+/*  */
+.stk{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.stuck{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    top: 600px;
+    z-index: 1;
+}
+
+.stickers{
+    display: flex;
+    width: 45%;
+    height: 200px;
+    background-color:white;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: space-around;
+    box-shadow: 1px 1px 10px;
+}
+.sticker1{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.arrow-down{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(201, 14, 61);
+    display: flex;
+    border-radius: 100px;
+    position:relative;
+    left: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.box-1{
+    width: 90px;
+    height: 70px;
+    background-color: rgba(241, 142, 191, 0.418);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(201, 14, 61);
+    font-size: 23px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.box-2{
+    height: 30px;
+    width: 90px;
+    display: flex;
+    background-color:rgb(199, 13, 59);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+
+}
+.sticker2{
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+.stick-text{
+    font-size: 25px;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 900;
+}
+.water-drop{
+    width: 50px;
+    height: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
     position: relative;
-    left: 13px;
+    z-index: 1;
+    justify-content: space-around;
+    top: 200px;
+    
+    
 }
+
+
 .donate{
     background-color: rgb(201, 14, 61);
     width: 100px;
@@ -142,7 +275,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: auto;
+    width: 1000px;
     height: 300px;
     gap: 10px;
     position: relative;
@@ -157,20 +290,23 @@ a{
 .power{
     color: white;
     font-weight: bolder;
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+   
 }
 .holy{
     color: white;
-    font-weight: bolder;
+    
     font-size: 20px;
     width: 75%;
     display: flex;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+  
 }
 .logo2{
     display: flex;
+    position:absolute;
+    left: 20px;
 }
 
 
@@ -527,11 +663,10 @@ h1{
 .contact-us{
     width: 800px;
     height: 250px;
-    
     display: flex;
     flex-direction: column;
     margin-left: 150px;
-    margin-top: 60px;
+    margin-top: 70px;
     justify-content: space-between;
 }
 .touch{
@@ -558,7 +693,6 @@ h1{
     width: 100%;
     height: 500px;
     border-top: 10px solid white;
-    gap: 20px;
     justify-content: center;
 }
 .about-z{
@@ -570,16 +704,17 @@ h1{
     margin-top: 50px;
 }
 .about-zegen{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     color: white;
     font-weight: bolder;
     
 }
 .about-zegen-info{
-    font-size: 19px;
+    font-size: 15px;
     color: white;
     font-family: 'Poppins', sans-serif;
+    line-height: 30px;
     
 }
 .about-zegen-icons{
@@ -638,7 +773,7 @@ h1{
 }
 .quick{
     width: 300px;
-    height: 400opx;
+    height: 400px;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -652,23 +787,25 @@ h1{
     justify-content: flex-start;
     font-size: 18px;
     height: auto;
-    gap: 40px;
+    gap: 20px;
     color: white;
     font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
 }
 .latest{
     width: 300px;
-    height: 400opx;
+    height: 400px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap:30px;
 }
 .giving{
     display: flex;
     flex-direction: row;
     width: 90%;
     height: auto;
+   
     
 
 }
@@ -676,21 +813,25 @@ h1{
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    width: auto;
+    width: 170px;
     height: auto;
     text-align: end;
     font-size: 15px;
     justify-content: space-around;
     color: white;
+    
 }
 .date{
     display: flex;
-    width: auto;
+    width: 170px;
     height: auto;
     font-size: 15px;
     gap: 10px;
     color: gray;
     align-items: center;
+    justify-content: start;
+    position: relative;
+    left: 10px;
     
 }
 .news-pic{
@@ -699,7 +840,7 @@ h1{
 }
 .newsletter{
     width: 300px;
-    height: 400opx;
+    height: 400px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -707,8 +848,10 @@ h1{
 }
 .news-text{
     font-family: 'Poppins', sans-serif;
-    font-size: 19px;
+    font-size: 15px;
     color: white;
+    line-height: 30px;
+    margin-top: 10px;
 }
 .news-box{
     display: flex;
@@ -723,6 +866,7 @@ h1{
     border: solid white;
     font-size: 20px;
     width: 200px;
+    color: rgba(128, 128, 128, 0.185);
 }
 .sign-up{
     width: 100px;
@@ -743,7 +887,14 @@ footer{
     justify-content: space-around;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
+    gap: 500px;
+}
+#ul-js{
+    display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 200px;
 }
 
 
@@ -766,31 +917,56 @@ footer{
         padding-left: 30px;
     }
     .background{
-        width: 1210px;
+        width: 1320px;
     }
    .nav-2{
         display: flex;
         flex-direction: row;
         align-items: center;
-        min-width: 1170px;
+        width: 1305px;
         height: 91px;
-        gap: 50px;
+       
+        justify-content: space-around;
     }
     .nav-button{
         display: flex;
         flex-direction: column;
-        background-color: yellow;
+        background-color: red;
+        position: absolute;
+        right: -10px;
+        top: 25px;
+        z-index: 1;
+      
+    }
+    .stk{
+        background-color: green;
+        width: 1200px;
+    }
+    .stuck{
+        width: 1160px;
+        background-color: red;
+        
+    }
+    .stickers{
+        min-width: 50%;
        
     }
+    
     #ul-js{
         display: none;
+        
     }
     #search{
         display: none;
     }
+    #search-btn{
+        position: absolute;
+        right: 100px;
+        top: 25px;
+    }
     .hero{
         display: flex;
-        z-index: 2;
+        z-index: 1;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -799,6 +975,7 @@ footer{
         gap: 10px;
         position: relative;
         left: 70px;
+     
     }
     .done{
         color: #bf0a30;
@@ -1128,11 +1305,15 @@ footer{
         left: 100px;
     }
     .second-section-header{
-        width: 1270px;
+        width: 1470px;
         padding: 0px;
     }
     .background{
+        width: 1470px;
+    }
+    .stk{
         width: 1270px;
+        background-color: white;
     }
   
     .dot{
