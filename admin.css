@@ -55,7 +55,7 @@ header{
     color: white;
     width: 100%;
     height: 60px;
-    gap: 200px;
+    gap: 300px;
     border-bottom: 1px solid rgba(141, 146, 151, 0.226);
     align-items: center;
     z-index: 2;
@@ -65,8 +65,9 @@ header{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    width: 300px;
+    width: 400px;
     height: 61px;
+  
 }
 
 .second-section-header{
@@ -77,7 +78,7 @@ header{
     height: 90px;
     z-index: 2;
     justify-content: center;
-    gap: 70px;
+    gap: 100px;
     box-shadow: 0px 3px 10px rgba(141, 146, 151, 0.226) ;
    
    
@@ -96,7 +97,7 @@ nav{
     align-self: center;
     flex-direction: row;
     
-    right: 50px;
+    
 }
 ul{
     display: flex;
@@ -128,7 +129,8 @@ a{
     border-left: 1px solid #8d929744;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    
     
 }
 /*  */
@@ -571,6 +573,7 @@ a{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
 h1{
     font-size: 25px;
     font-weight: bolder;
@@ -798,16 +801,16 @@ h1{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap:40px;
 }
 .giving{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     height: auto;
-   
-    
-
+}
+.about-zegen-info {
+    margin-right: 20px;
 }
 .giving-text{
     display: flex;
@@ -915,15 +918,16 @@ footer{
         background-color: white;
         min-width: 1180px;
         padding-left: 30px;
+        position: fixed;
     }
     .background{
-        width: 1320px;
+        width: 1340px;
     }
    .nav-2{
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 1305px;
+        width: 1310px;
         height: 91px;
        
         justify-content: space-around;
@@ -931,38 +935,55 @@ footer{
     .nav-button{
         display: flex;
         flex-direction: column;
-        background-color: red;
-        position: absolute;
-        right: -10px;
-        top: 25px;
+        position: relative;
+        background-color: white;
+        gap: 20px;
+        left: 950px;
         z-index: 1;
+        
       
     }
+     
+    #ul-js{
+        display: none;
+        position: fixed;
+        
+        background-color: white;
+        top: 100px;
+        border-radius: 5px;
+        width: 200px;
+        height: 300px;
+        right: 20px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        line-height: 20px;
+    }
+    .nav-li{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+  
+    #bars-js{
+        display: flex;
+    }
+    .logo2{
+        position: fixed;
+        left: 100px;
+     }
     .stk{
-        background-color: green;
+        background-color: white;
         width: 1200px;
     }
     .stuck{
         width: 1160px;
-        background-color: red;
-        
+        background-color: white;
     }
     .stickers{
         min-width: 50%;
-       
-    }
-    
-    #ul-js{
-        display: none;
-        
-    }
-    #search{
-        display: none;
     }
     #search-btn{
-        position: absolute;
-        right: 100px;
-        top: 25px;
+        position: relative;
     }
     .hero{
         display: flex;
@@ -975,6 +996,7 @@ footer{
         gap: 10px;
         position: relative;
         left: 70px;
+        top: 100px;
      
     }
     .done{
@@ -1052,6 +1074,7 @@ footer{
         left: 200px;
         height: 550px;
         width: 550px;
+        z-index: 1;
        
 
 }
@@ -1060,6 +1083,7 @@ footer{
         left: 10px;
         height: 500px;
         width: 300px;
+        z-index: 0;
 }
 body{
     background-color: white;
@@ -1279,6 +1303,46 @@ footer{
     font-size: 15px;
     gap: 550px;
 }
+.stuck-m-3{
+    display: none;
+}
+.free{
+    font-size: 25px;
+}
+.quick{
+    margin-top: 80px;
+}
+.about-zegen-info{
+    font-size: 25px;
+    width: 600px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.about-zegen{
+    font-size: 30px;
+}
+.news-text{
+    font-size: 25px;
+}
+h1{
+    font-size: 30px;
+}
+.grateful{
+    font-size: 25px;
+}
+.read-more{
+    font-size: 25px;
+}
+.address{
+    font-size: 20px;
+}
+.phone{
+    font-size: 20px;
+}
+.mail{
+    font-size: 20px;
+}
 
 
 }
@@ -1315,6 +1379,8 @@ footer{
         width: 1270px;
         background-color: white;
     }
+    
+   
   
     .dot{
         display: none;
@@ -1484,14 +1550,14 @@ h1{
 }
 
 .touch{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bolder;
 }
 .hesitate{
     font-size: 50px;
 }
 .free{
-    font-size: 30px;
+    font-size: 35px;
 }
 .phone{
     font-size: 30px;  
@@ -1544,6 +1610,71 @@ footer{
     border-bottom-left-radius: 10px;
     font-size: 23px;
 }
+.stuck{
+    display: none;
+}
+.stuck-m-3{
+    display: block;
+    background-color: white;
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.stickers{
+    width: 800px;
+    position: absolute;
+    top: 600px;
+    z-index: 1;
+    left: 250px;
+}
+.sticker1{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+.box-1{
+    width: 110px;
+    height: 90px;
+    font-size: 30px;
+}
+.box-2{
+    width: 110px;
+    height: 40px;
+    font-size: 25px;
+}
+.arrow-down{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+.stick-text{
+    font-size: 30px;
+}
+.water-drop{
+    position: absolute;
+    top: 850px;
+}
+.about-zegen{
+    font-size: 35px;
+}
+.about-zegen-info{
+    font-size: 30px;
+    width: 600px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    
+}
+.date{
+    font-size: 30px;
+
+    width: 400px;
+}
+.giving{
+   
+}
 
 }
    
@@ -1574,6 +1705,9 @@ footer{
     display: none;
    }
    .call-us-2{
+    display: none;
+   }
+   .stuck-m-3{
     display: none;
    }
   
