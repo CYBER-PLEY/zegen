@@ -185,6 +185,7 @@ a{
     border-radius: 100px;
     position:relative;
     left: 30px;
+    top: 10px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -710,13 +711,14 @@ h1{
 .section-6{
     display: flex;
     width: 100%;
+    min-width: 1300px;
     height: 1000px;
-    background-color: #bf0a30;
+    background-color: white;
     justify-content: center;
 }
 .mainsec-6{
     display: flex;
-    width: 70%;
+    width: 100%;
     height: 100%;
     background-color: white;
     flex-direction: column;
@@ -726,19 +728,66 @@ h1{
 }
 .sec-6sub-box{
     width: 100%;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: row;
-    background-color: blue;
-    justify-content: space-evenly;
+    background-color: white;
+    justify-content: center;
+    gap: 50px;
 }
 .sec6-inner-box{
     background-color: white;
-    width: 400px;
-    height:100%;
+    width: 350px;
+    height:90%;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 0.5px 10px lightgray;
 
+}
+.sec-6-text{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+
+}
+.section-6-text{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec-6-inner-text{
+    width: 90%;
+    display: flex;
+    height: 70%;
+    background-color: white;
+    flex-direction: column;
+    font-size: 27px;
+    gap: 20px;
+}
+.sec-6-date{
+    width: 220px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    background-color: #bf0a30;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(270deg);
+    right: 91px;
+    bottom: 150px;
+    border-radius: 5px;
+  
 }
 .section-7{
     background: url(./IMG/background.png);
@@ -914,7 +963,7 @@ h1{
     border: solid white;
     font-size: 20px;
     width: 200px;
-    color: rgba(128, 128, 128, 0.185);
+    color: rgba(0, 0, 0, 0.658);
 }
 .sign-up{
     width: 100px;
@@ -941,7 +990,7 @@ footer{
 }
 .main-footer{
     width: 59%;
-    min-width: 1000px;
+    min-width: 1200px;
     display: flex;
     height: 100%;
     justify-content: space-between;
