@@ -526,7 +526,7 @@ a{
 }
 .row-box{
     width: 90%;
-    max-width: 1230px;
+    max-width: 1225px;
     height: 800px;
     background-color: white;
     display: flex;
@@ -579,7 +579,8 @@ a{
     border-top-right-radius: 10px;
 }
 .row-boxes:hover .overlay {
-    width:358px;
+    width:357px;
+    max-width: 357px;
     height: 200px;
     background-color: #bf0a30;
     position: absolute;
@@ -707,6 +708,39 @@ h1{
     
 }
 .section-6{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    background-color: #bf0a30;
+    justify-content: center;
+}
+.mainsec-6{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.sec-6sub-box{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    justify-content: space-evenly;
+}
+.sec6-inner-box{
+    background-color: white;
+    width: 400px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.section-7{
     background: url(./IMG/background.png);
     display: flex;
     flex-direction: row;
@@ -717,14 +751,14 @@ h1{
     justify-content: center;
  
 }
-.section-6-sub{
+.section-7-sub{
     display: flex;
     flex-direction: row;
     width: 70%;
     min-width: 1300px;
     height: 100%;
     justify-content: center;
-    gap: 30px;
+    
     
   
 }
@@ -906,8 +940,8 @@ footer{
     gap: 500px;
 }
 .main-footer{
-    width: 70%;
-    min-width: 1300px;
+    width: 59%;
+    min-width: 1000px;
     display: flex;
     height: 100%;
     justify-content: space-between;
@@ -926,447 +960,40 @@ footer{
 
 
 
-/* @media screen and (max-width:1150px){
-    header{
-        min-width: 1075px;
-        
-    }
-    .background{
-        min-width: 1180px;
-   
-    }
-   .second-section-header{
-        background-color: white;
-        min-width: 1180px;
-        padding-left: 30px;
-        position: fixed;
-    }
-    .background{
-        width: 1340px;
-    }
-   .nav-2{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 1310px;
-        height: 91px;
-       
-        justify-content: space-around;
-    }
-    .nav-button{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        background-color: white;
-        gap: 20px;
-        left: 950px;
-        z-index: 1;
-        
-      
-    }
-     
-    #ul-js{
-        display: none;
-        position: fixed;
-        
-        background-color: white;
-        top: 100px;
-        border-radius: 5px;
-        width: 200px;
-        height: 300px;
-        right: 20px;
-        font-size: 20px;
-        justify-content: center;
-        align-items: center;
-        line-height: 20px;
-    }
-    .nav-li{
-        font-size: 20px;
-        font-family: 'Poppins', sans-serif;
-    }
+ @media screen and (max-width:1150px){
   
-    #bars-js{
-        display: flex;
-    }
-    .logo2{
-        position: fixed;
-        left: 100px;
-     }
-    .stk{
-        background-color: white;
-        width: 1200px;
-    }
-    .stuck{
-        width: 1160px;
-        background-color: white;
-    }
-    .stickers{
-        min-width: 50%;
-    }
-    #search-btn{
-        position: relative;
-    }
-    .hero{
-        display: flex;
-        z-index: 1;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: auto;
-        height: 300px;
-        gap: 10px;
-        position: relative;
-        left: 70px;
-        top: 100px;
-     
-    }
-    .done{
-        color: #bf0a30;
-        font-weight: bolder;
-        font-size: 20px;
-    }
-    .power{
-        color: white;
-        font-weight: bolder;
-        font-size: 50px;
-    }
-    .holy{
-        color: white;
-        font-weight: bolder;
-        font-size: 20px;
-        width: 75%;
-        display: flex;
-        text-align: center;
-    }
-    .first-section-header{
-        display: none;
-    }
-    nav{
-        display: none;
-    }
-    .logo{
-       display: none;
-    }
- 
-    .rain4{
-        position: relative;
-        top: 150px;
-        right: 550px;
-        height: 35px;
-        width: 150px;
-      
-    }
-    .rain{
-        display: none;
-}
-.hero-2{
-        width: 1210px;
-        display: flex;
-        flex-direction: column;
-        
-        height: 2000px;
-        justify-content: flex-start;
-       
-      
-}
-.img-hero-2{
-        
-        width:1210px;
-        height: 700px;
-        display: flex;
-        flex-direction: row;
-        
-        
-}
-.hero-2-text{
-        display: flex;
-        flex-direction: column;
-        height: 1100px;
-        width: 1210px;
-        
-        
-        
-        
-}
-.hall{
-        height: 400px;
-        width: 400px;
-        position: relative;
-        left: 200px;
-        height: 550px;
-        width: 550px;
-        z-index: 1;
-       
-
-}
-.dot{
-        position: relative;
-        left: 10px;
-        height: 500px;
-        width: 300px;
-        z-index: 0;
-}
-body{
+   .stuck-m-3{
+    display: none;
+   }
+   .first{
+    display: none ;
+   }
+   nav{
+    display: none;
+   }
+   ul{
+    display: none;
+   }
+   .logo{
+    display: none;
+   }
+   .nav-button{
+    display: none;
+   }
+  
+   .second{
     background-color: white;
-    height: 10000px;
-    display: flex;
-    flex-direction: column;
-    width: auto;
-  }
-
-.about{
-    font-size: 25px;
-    font-weight: bolder;
-    margin-left: 30px;
-}
-.hero-2-txt1{
-    font-size: 45px;
-    font-weight: 600px;
-    margin-left: 30px;
-}
-.hero-2-txt2{
-    font-size: 30px;
-    font-weight: 600px;
-    margin-left: 30px;
-}
-.hero-2-txt3{
-    font-size: 40px;
-    font-weight: 600px;
-    margin-left: 30px;
-}
-.hero-2-icons{
-    margin-left: 30px;
-}
-.hero-2-icons2{
-    display: none;
-}
-.place{
-    font-size: 50px;
-    font-weight: 600px;
-}
-.beliefs{
-    font-size: 35px;
-    font-weight: 600px;
-    color: rgba(128, 128, 128, 0.582);
-    font-family: 'Poppins', sans-serif;
-}
-.hero2-icon-text{
-    height: 400px;
-    margin-left: 30px;
-    width: 600px;
-}
-.learn-more{
-    width: 170px;
-    height: 50px;
-    font-size: 17px;
-    border-radius: 10px;
-    font-weight: bolder;
-    font-family: 'Poppins', sans-serif;
- 
-}
-.section-3{
-    width: 1210px;
-    height: 700px;
-    flex-direction: column;
-    
-}
-.text-1{
-   width: 300px;
-   height: 100px;
-  
-}
-.ministries{
-    font-size: 20px;
-}
-.our{
-    font-size: 35px;
-}
-.pray{
-    height: 150px;
-}
-.section-4{
-    width: 1210px;
-    height: 1000px;
-    background-color: black;
-}
-.row-box{
-    display: none;
-}
-.row-boxes{
-   height: 600px;
-    width: 500px;
-}
-.childrens-ministry{
-    height: 300px;
-}
-.section-5{
-    width: 1210px;
-    height: 700px;
-    flex-direction: column;
-}
-.call-us{
-   display: none;
-
-}
-.call-us-2{
-    display: flex;
-    flex-direction: column;
-    background-color: #bf0a30;
-    width: 95%;
-    height: 350px;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    color: white;
-    align-self: center;
-    border-radius: 5px;
-    gap: 30px;
-    position: relative;
-    bottom: 30px;
-   
-}
-.row-box-3{
-    display: none;
-}
-.section-6{
-    width: 1210px;
-    height: 1700px;
-    flex-direction: column;
-    justify-content: center;
-    gap: 0px;
-}
-.about-z{
-    position: relative;
-    left: 20px;
-    width: 90%;
-    margin: 0px;
-    height: 200px;
-}
+   }
+   .nav-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 1300px;
+    height: 100%;
+   }
 
-
-.contact-us{
-    width: 90%;
-    margin: 0px;
-    position: relative;
-    left: 20px;
-    
-}
-.about-zegen-icons{
-    height: 50px;
-}
-.insta{
-    width: 50px;
-    height: 50px;
-}
-.facebook-z{
-    width: 50px;
-    height: 50px;
-}
-.pintrest{
-    width: 50px;
-    height: 50px;
-}
-.twitter{
-    width: 50px;
-    height: 50px;
-}
-.tissue{
-    width: 50px;
-    height: 50px;
-}
-.quick{
-    position: relative;
-    left: 20px;
-    gap: 20px;
-}
-.latest{
-    position: relative;
-    left: 20px;
-    width: 90%;
-    
-}
-.about-zegen-info{
-    font-size: 21px;
-}
-.news-box{
-    width: 100%;
-}
-.news-text{
-    width: 100%;
-}
-.giving{
-    gap: 10px;
-}
-
-.newsletter{
-    position: relative;
-    left: 20px;
-    width: 95%;
-
-}
-.sign-up{
-    color: white;
-    width: 100px;
-}
-.email{
-    height: 50px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border: solid white;
-    font-size: 20px;
-    width: 1000px;
-   
-}
-footer{
-    position: relative;
-    width: 1210px;
-    height: 75px;
-    font-size: 15px;
-    gap: 550px;
-}
-.stuck-m-3{
-    display: none;
-}
-.free{
-    font-size: 25px;
-}
-.quick{
-    margin-top: 80px;
-}
-.about-zegen-info{
-    font-size: 25px;
-    width: 600px;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-.about-zegen{
-    font-size: 30px;
-}
-.news-text{
-    font-size: 25px;
-}
-h1{
-    font-size: 30px;
-}
-.grateful{
-    font-size: 25px;
-}
-.read-more{
-    font-size: 25px;
-}
-.address{
-    font-size: 20px;
-}
-.phone{
-    font-size: 20px;
-}
-.mail{
-    font-size: 20px;
-}
-
-
-}
+ }
 
 @media screen  and (max-width:750px) {
     body{
@@ -1593,7 +1220,7 @@ h1{
     gap: 30px;
     line-height: 30px;
 }
-.section-6{
+.section-7{
     width: 1270px;
 }
 footer{
@@ -1697,7 +1324,7 @@ footer{
    
 }
 
-} */
+} 
    
 
     
