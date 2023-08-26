@@ -456,9 +456,14 @@ a:hover{
     align-items: center;
     justify-content: center;
     gap: 50px;
-    height: 500px;
+    height: 550px;
     width: 60%;
     min-width: 1230px;
+}
+.d-two{
+    height: 70px;
+    width: 150px;
+    font-size: 20px;
 }
 .pray{
     font-family: 'Poppins', sans-serif;
@@ -817,6 +822,7 @@ h1{
     min-width: 1300px;
     height: 100%;
     justify-content: center;
+    gap: 10px;
     
     
   
