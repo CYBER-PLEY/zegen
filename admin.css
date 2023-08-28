@@ -264,15 +264,7 @@ a:hover{
     cursor: pointer;
     
 }
-.nav-2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 91px;
-    gap: 350px;
-}
+
 .hero{
     display: flex;
     z-index: 2;
@@ -1037,8 +1029,6 @@ footer{
 #ul-js{
     display: flex;
         flex-direction: column;
-        width: 100px;
-        height: 200px;
 }
 
 
@@ -1063,32 +1053,78 @@ footer{
    .logo{
     display: none;
    }
-   .nav-button{
-    display: none;
-   }
+   
    .hero-2-icons2{
     display: none;
    }
-  
-   .second{
+   #ul-js{
+    display: none;
+   }
+   body{
+    background-color: red;
+    
+   }
+   header{
+    min-width: 1355px;
+   }
+   .heading{
+    min-width: 1355px;
+   }
+   .background{
+    min-width: 1355px;
+   }
+   .stk{
+    width: 1355px;
+   }
+   
+  .second{
     background-color: white;
     justify-content: center;
+    min-width: 1355px;
    }
-   .nav-2{
+   .nav-button{
     display: flex;
-    justify-content: space-between;
-    background-color: white;
-    width: 1300px;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    justify-content: flex-end;
+    width: 98%;
     height: 100%;
+    z-index: 2;
+    background-color: white;
+    color: black;
+}
+.hero{
+    z-index: 1;
+}
+#ul-js{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    justify-content: center;
+}
+
+.nav-li{
+    color: black;
+  
+}
+   .n-2{
+   display: none;
    }
    .hero-2{
     height: 1500px;
+    min-width: 1355px;
    }
    .mainhero-2{
     display: flex;
     flex-direction: column;
     background-color: white;
     gap: 0px;
+    min-width: 1355px;
    }
    .img-hero-2{
     width: 100%;
@@ -1154,6 +1190,15 @@ footer{
     background-color: transparent;
     
    }
+   .section-3{
+    min-width: 1355px;
+   }
+   .section-4{
+    min-width: 1355px;
+   }
+   .section-5{
+    min-width: 1355px;
+}
    .r3{
     display: none;
    }
@@ -1170,6 +1215,9 @@ footer{
    }
    .row-boxes:hover .overlay {
     display: none;
+ }
+ .section-6{
+    min-width: 1355px;
  }
  .sec6-3{
     display: none;
@@ -1201,20 +1249,82 @@ footer{
     font-weight: bolder;
  }
  .section-7{
-    height: 1600px;
+    height: 1300px;
+    display: flex;
+    align-items: center;
+    min-width: 1355px;
  }
  .section-7-sub{
+    height: 90%;
     flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+  
  }
  .about-z{
+    width: 90%;
+    margin: 0px;
+ }
+ .z-one{
+    height: 200px;
+ }
+ .z-two{
+    height: 300px;
+ }
+ .z-three{
+    height: 300px;
+ }
+ .z-four{
+    height: 300px;
     width: 100%;
  }
  .about-zegen{
     text-align: start;
+    position: relative;
+    left: 30px;
  }
  .about-zegen-info{
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    left: 30px;
  }
+ .about-zegen-icons{
+    position: relative;
+    left:30px;
+ }
+ .giving-text{
+    width: 100%;
+ }
+ .news-text{
+    position: relative;
+    left: 30px;
+    width: 90%;
+ }
+ .news-box{
+    width: 100%;
+ }
+ .email{
+    width: 88%;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+ }
+ /* .sign-up{
+    position: relative;
+    left: 20px;
+ } */
+ footer{
+    min-width: 1355px;
+ }
+ .main-footer{
+    width: 99%;
+    font-size: 18px;
+ 
+}
+#ul-js{
+    display: none;
+   }
 }
 
 @media screen  and (max-width:750px) {
@@ -1231,6 +1341,12 @@ footer{
 
 @media screen and (min-width:1150px) {
    .nav-2{ 
+    display: none;
+   }
+   .nav-button{
+    display: none;
+   }
+   #ul-js{
     display: none;
    }
    .rain4{
@@ -1252,6 +1368,9 @@ footer{
     display: none;
    }
    .stuck-m-3{
+    display: none;
+   }
+   .n-2{
     display: none;
    }
    
