@@ -17,7 +17,7 @@
 }
 body{
     
-    height: 3000px;
+    height: 10000px;
     background-color: white;
     
 }
@@ -462,14 +462,14 @@ a:hover{
 }
 .d-two{
     height: 70px;
-    width: 150px;
+    width: 250px;
     font-size: 20px;
 }
 .pray{
     font-family: 'Poppins', sans-serif;
     display: flex;
     width:100%;
-    height: 200px;
+    height: 150px;
     /* background-color: red; */
     color: white;
     font-size: 50px;
@@ -481,7 +481,7 @@ a:hover{
     font-family: 'Dancing Script', cursive;
     color: white;
     width: 60%;
-    height: 50px;
+    height: 100px;
     /* background-color: blue; */
     display: flex;
     text-align: center;
@@ -769,6 +769,9 @@ h1{
     font-size: 35px;
 
 }
+.zoom{
+    height: 270px;
+}
 .section-6-text{
     width: 100%;
     height: 200px;
@@ -832,10 +835,21 @@ h1{
     height: 400px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
     margin-top: 50px;
-   
 }
+.z-one{
+    gap: 30px;
+}
+.z-two{
+    gap: 30px;
+}
+.z-three{
+    gap: 30px;
+}
+.z-four{
+    gap: 30px;
+}
+
 .about-zegen{
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
@@ -918,27 +932,29 @@ h1{
     gap: 20px;
     color: white;
     font-family: 'Poppins', sans-serif;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .giving{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: auto;
+    height: 100px;
+    gap: 10px;
 }
 .sec-7-one{
     border-bottom: 1px solid gray;
 }
 .about-zegen-info {
     margin-right: 20px;
+    text-align: start;
 }
 .giving-text{
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
     width: 170px;
-    height: auto;
+    height: 70px;
     text-align: end;
     font-size: 15px;
     justify-content: space-around;
@@ -968,7 +984,7 @@ h1{
     font-size: 15px;
     color: white;
     line-height: 30px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 .news-box{
     display: flex;
@@ -1011,6 +1027,7 @@ footer{
 .main-footer{
     width: 59%;
     min-width: 1200px;
+    max-width: 1210px;
     display: flex;
     height: 100%;
     justify-content: space-between;
@@ -1049,6 +1066,9 @@ footer{
    .nav-button{
     display: none;
    }
+   .hero-2-icons2{
+    display: none;
+   }
   
    .second{
     background-color: white;
@@ -1061,339 +1081,146 @@ footer{
     width: 1300px;
     height: 100%;
    }
-
+   .hero-2{
+    height: 1500px;
+   }
+   .mainhero-2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 0px;
+   }
+   .img-hero-2{
+    width: 100%;
+    background-color: white;
+    height: 50%;
+    justify-content: center;
+   }
+   .dot{
+    display: none;
+   }
+   .hall{
+    width: 650px;
+    height: 700px;
+    position: static;
+   }
+   .hero-2-text{
+    height: 50%;
+    width: 93%;
+   }
+   .about{
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+   }
+   .hero-2-txt1{
+    font-size: 37px;
+    position: relative;
+    left: 30px;
+   }
+   .hero-2-txt2{
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+   }
+   .hero-2-txt3{
+    position: relative;
+    left: 30px;
+    font-size: 30px;
+   }
+   .hero-2-icons{
+    width: 700px;
+    justify-content: space-between;
+    position: relative;
+    left: 30px;
+   }
+   .hero2-icon-text.one{
+    position: relative;
+    left: 30px;
+   }
+   .beliefs{
+    font-size: 19px;
+    color: rgba(128, 128, 128, 0.719);
+    font-weight: bolder;
+   }
+   .learn-more{
+    width: 180px;
+    height: 60px;
+    box-shadow:0px 5px 10px  rgba(0, 0, 0, 0.438);
+    font-size: 20px;
+   }
+   .d-two{
+    border:5px solid#bf0a30;
+    background-color: transparent;
+    
+   }
+   .r3{
+    display: none;
+   }
+   .row-box{
+    background-color: white;
+   }
+   .row-boxes{
+    background-color: white;
+    height: 90%;
+    width: 550px;
+   }
+   .childrens-ministry{
+    height: 350px;
+   }
+   .row-boxes:hover .overlay {
+    display: none;
  }
+ .sec6-3{
+    display: none;
+ }
+ .sec-6sub-box{
+    background-color: white;
+    height: 700px;
+ }
+ .sec6-inner-box{
+    width: 550px;
+    background-color: white;
+    justify-content: space-between;
+ }
+ .zoom{
+    height: 500px;
+ }
+ .sec-6-date{
+    height: 70px;
+    width: 250px;
+    right: 100px;
+    bottom: 190px;
+    font-size: 20px;
+ }
+ .sec6-inner-box:hover{
+    display: none;
+ }
+ .sec-6-inner-text{
+    font-size: 30px;
+    font-weight: bolder;
+ }
+ .section-7{
+    height: 1600px;
+ }
+ .section-7-sub{
+    flex-direction: column;
+ }
+ .about-z{
+    width: 100%;
+ }
+ .about-zegen{
+    text-align: start;
+ }
+ .about-zegen-info{
+    font-size: 20px;
+ }
+}
 
 @media screen  and (max-width:750px) {
-    body{
-      background-color: white;
-      height: 10000px;
-      display: flex;
-      flex-direction: column;
-      width: auto;
-    }
-   
-    .hero-2{
-        height: 2300px;
-        justify-content:start;
-        width: 1270px;
-        
-        display: flex;
-        flex-direction: column;
-
-    }
-    .hero{
-        left: 100px;
-    }
-    .second-section-header{
-        width: 1470px;
-        padding: 0px;
-    }
-    .background{
-        width: 1470px;
-    }
-    .stk{
-        width: 1270px;
-        background-color: white;
-    }
     
-   
-  
-    .dot{
-        display: none;
-    }
-    .img-hero-2{
-       
-        width: 1270px;
-        height: 700px;
-        display: flex;
-        flex-direction: row;
-      
-       
-    }
-    .hall{
-        height: 600px;
-        width: 700px;
-        margin-left: 100px;
-       
-    }
-    .hero-2-text{
-        background-color: white;
-        flex-direction: column;
-        width: 1270px;
-        height: 600px;
- 
-
-    }
-    .hero2-icon-text{
-        display: none;
-    }
-    .hero-2icons{
-        border: 1px solid #bf0a30;
-    border-radius: 100px;
-    width: 70px;
-    height: 70px;
-    background-color: #bf0a30;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-    .hero-2-icons{
-        display: none;
-    }
-    .hero-2-icons2{
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        width: 1270px;
-        height: 800px;
-        background-color: white;
-      
-    }
-     .learn-more{
-        width: 300px;
-        height: 100px;
-        font-size: 30px;
-        border-radius: 10px;
-    }
-    .section-3{
-        width: 1270px;
-        display: flex;
-        flex-direction:column;  
-        align-items: center;
-    }
-    .place{
-        margin-left: 30px;
-    }
-    .hero-2icons{
-        margin-left: 30px;
-    }
-    .beliefs{
-        margin-left: 30px;
-    }
-    .learn-more{
-        margin-left: 30px;
-    }
-    .call-us{
-        display: none;
-    }
-    .row-box-2{
-        display: none;
-    }
-    .row-box-3{
-    width: 100%;
-    height: 1020px;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    justify-content: space-around;
-}
-.row-boxes{
-    width:90%;
-    height: 1000px;
-    border-bottom: 10px solid #bf0a30;
-}
-.childrens-ministry{
-    height: 600px;
-}
-.section-4{
-    width: 1270px;
-    height: 1400px;
-    background-color: white;
-    justify-content: center;
-}
-.row{
-    background-color: white;
-    height: 1300px;
-    gap: 10px;
-}
-.text-1{
-    margin-bottom: 20px;
-    width: 400px;
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
-}
-.ministries{
-    font-size: 30px;
-}
-.our{
-    font-size: 45px;
-}
-
-h1{
-    font-size: 40px;
-}
-.grateful{
-    font-size: 25px;
-}
-.read-more{
-    font-size: 35px;
-}
-.row-button{
-    background-color: white;
-    width: 120px;
-    height: 50px;
-    left: 500px;
-}
-.row-button-one{
-    width: 50px;
-    height: 50px;
-}
-.section-5{
-    width: 1270px;
-    height: 1300px;
-}
-.call-us-2{
-    height: 700px;
-}
-.call{
-    font-size: 50px;
-}
-.address{
-    font-size: 30px;
-}
-.phone{
-    font-size: 30pxwa;
-}
-.contact-us{
-    margin: 0px;
-    width: 95%;
-    height: 500px;
-    margin-top: 100px;
-    position: relative;
-    left: 20px;
-}
-
-.touch{
-    font-size: 35px;
-    font-weight: bolder;
-}
-.hesitate{
-    font-size: 50px;
-}
-.free{
-    font-size: 35px;
-}
-.phone{
-    font-size: 30px;  
-}
-.contact-info{
-    gap: 20px;
-}
-.mail{
-    font-size: 30px;
-}
-.call-us-2{
-    gap: 30px;
-    line-height: 30px;
-}
-.section-7{
-    width: 1270px;
-}
-footer{
-    width: 1270px;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    height: 150px;
-    font-size: 23px;
-}
-.newsletter{
-    height: 400px;
-    width: 1250px;
-}
-.news-box{
-    flex-direction:column;
-    height: 220px;
-    gap: 30px;
-}
-.email{
-    width: 1220px;
-    height: 75px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    
-}
-.sign-up{
-    width: 1230px;
-    height: 83px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    font-size: 23px;
-}
-.stuck{
-    display: none;
-}
-.stuck-m-3{
-    display: block;
-    background-color: white;
-    width: 90%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
-.stickers{
-    width: 800px;
-    position: absolute;
-    top: 600px;
-    z-index: 1;
-    left: 250px;
-}
-.sticker1{
-    background-color: white;
-    width: 200px;
-    height: 200px;
-}
-.box-1{
-    width: 110px;
-    height: 90px;
-    font-size: 30px;
-}
-.box-2{
-    width: 110px;
-    height: 40px;
-    font-size: 25px;
-}
-.arrow-down{
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-}
-.stick-text{
-    font-size: 30px;
-}
-.water-drop{
-    position: absolute;
-    top: 850px;
-}
-.about-zegen{
-    font-size: 35px;
-}
-.about-zegen-info{
-    font-size: 30px;
-    width: 600px;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    
-}
-.date{
-    font-size: 30px;
-
-    width: 400px;
-}
-.giving{
-   
-}
-
 } 
+
    
 
     
@@ -1427,5 +1254,6 @@ footer{
    .stuck-m-3{
     display: none;
    }
+   
   
 }
