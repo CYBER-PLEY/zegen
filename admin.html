@@ -66,13 +66,14 @@
                 <img src="./IMG/logo2.png" alt="ZEGEN2" class="logo2">
                 <i class="fa-solid fa-magnifying-glass fa-2x" id="search-btn"></i>
                 <i class="fa-solid fa-bars fa-2x" id="bars-js"></i>
-                    <ul id="ul-js">
+                    <ul id="ul-js" style="display: none;" >
+                        <img src="./IMG/logo2.png" alt="ZEGEN2" class="logo2 l-2">
                         <li class="nav-li">Home</li>
                         <li class="nav-li">About</li>
                         <li class="nav-li">Contacts</li>
                         <li class="nav-li">Email</li>
                         <li class="nav-li">Social Media</li>
-                        <li class="nav-li"><div class="fa-solid fa-xmark fa-2x"id="hide"></div></li>
+                        <div class="fa-solid fa-xmark fa-2x"id="hide"></div>
                     </ul>
             </div>
     </div>
@@ -423,11 +424,18 @@
 </html>
 <script src="./custom.js"></script>
 <script>
-  
+    // $("#bars-js").on("click", function(){
+    //     $("#ul-js").toggle()
+    // }
+    // )
     $('#bars-js').on('click', function(){
-        $("#ul-js").show();
+        $("#ul-js").show( console.log ("i work"));
         })
+ 
     $('#hide').on('click', function(){
-        $("#ul-js").hide();
+        $("#ul-js").hide(console.log("i work too"));
     })
-</script>
+        // const fruits=["beans" ,"rice", "garri"]
+        // alert("This page is trying to access camera, press ok to allow");
+        // console.log("I love JavaScript")
+    </script>
